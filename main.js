@@ -1,7 +1,7 @@
-// String array that integers will be mapped to
-var strArray = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
-
 function IntToString(nums){
+    // String array that integers will be mapped to
+    var strArray = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"]
+
     for(var i = 0; i < nums.length; i++){
 
         // Set variable to current element in inputted array
@@ -24,5 +24,5 @@ function IntToString(nums){
     console.log(nums);
 }
 
-// var array = [9, 30, 809];
+// var array = [5, 330, 89];
 // IntToString(array)
