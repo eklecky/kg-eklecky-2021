@@ -5,13 +5,19 @@ function IntToString(nums){
 
         currentNum = nums[i];
 
+        var numString = "";
 
         while (currentNum > 0){
-            var digit = (num % 10)
+            var digit = (currentNum % 10)
 
-            currentNum = Math.floor((num / 10))
+            numString = strArray[digit]+ numString;
+
+            currentNum = Math.floor((currentNum / 10))
         }
+        nums[i] = numString
     }
+    return nums;
 }
 
-
+var array = [9, 30, 809];
+console.log(IntToString(array));
