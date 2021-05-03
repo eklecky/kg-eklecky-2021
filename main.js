@@ -24,5 +24,5 @@ function IntToString(nums){
     return nums;
 }
 
-var array = [9, 30, 809];
-console.log(IntToString(array));
+// var array = [9, 30, 809];
+// console.log(IntToString(array));
